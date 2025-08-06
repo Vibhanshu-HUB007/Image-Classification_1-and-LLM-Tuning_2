@@ -1,0 +1,18 @@
+{
+  "models": {
+    "resnet50": {
+      "best_val_accuracy": 1.0,
+      "avg_inference_time_ms": 9.143998622894287,
+      "model_path": "resnet50_classifier.pth"
+    },
+    "efficientnet": {
+      "best_val_accuracy": 1.0,
+      "avg_inference_time_ms": 12.161195278167725,
+      "model_path": "efficientnet_classifier.pth"
+    },
+    "yolo": {
+      "avg_inference_time_ms": 10.749959945678711,
+      "model_path": "best_yolo_classifier.pt"
+    }
+  }
+}
